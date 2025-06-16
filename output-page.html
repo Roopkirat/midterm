@@ -1,0 +1,5 @@
+<div *ngIf="productData">
+  <p>Product Name: {{ productData.productName }}</p>
+  <p>Product Price: {{ productData.productPrice | currency }}</p>
+  <p>Stock Status: {{ productData.inStock ? 'In Stock' : 'Out of Stock' }}</p>
+</div>
